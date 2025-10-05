@@ -1,0 +1,44 @@
+# Archivos compilados y binarios
+*.out
+*.o
+*.exe
+*.obj
+
+# Archivos de dependencias y compilación
+*.a
+*.so
+*.dll
+*.class
+
+# Archivos temporales o de respaldo
+*~
+*.tmp
+*.swp
+*.bak
+
+# Archivos de texto o datos que no quieras versionar
+*.txt
+*.csv
+*.log
+
+# Imágenes y multimedia
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Carpetas comunes que no deben subirse
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+
+# Archivos del sistema o del entorno
+.DS_Store
+Thumbs.db
+
+# Configuración de editores (opcional)
+.vscode/
+.idea/
