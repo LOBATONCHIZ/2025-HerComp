@@ -3,6 +3,7 @@
 *.o
 *.exe
 *.obj
+*.x
 
 # Archivos de dependencias y compilación
 *.a
@@ -27,6 +28,7 @@
 *.jpeg
 *.gif
 *.bmp
+*.pdf
 
 # Carpetas comunes que no deben subirse
 /build/
