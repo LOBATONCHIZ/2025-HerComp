@@ -22,7 +22,7 @@ int main(void)
   params["beta"] = 8/3;
 
   initial_conditions(S, 0);
-  rugenk(derivada, S, 0, 10, 0.01, params, print);
+  rugenk(derivada, S, 0, 60, 0.01, params, print);
   
   return 0;
 }

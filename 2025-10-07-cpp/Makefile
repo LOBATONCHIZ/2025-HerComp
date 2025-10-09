@@ -1,14 +1,13 @@
-all: ivp_V1.x
+all: fig
 
-%.x : %.cpp
+%.x: %.cpp
 	g++ -std=c++23 $< -o $@
 
-#fig.pdf: plot.py data.txt 
-#	python plot.py
+data.txt: ode.x
+	./ode.x > $@
 
-#data.txt: sumas.x
-#	./sumas.x
-
+fig: plot.py data.txt
+	python plot.py
 
 clean:
 	rm -f *~ *.txt a.out *.x

@@ -1,6 +1,7 @@
 #include <print>
 #include <vector>
 #include <map>
+#include <valarrat>
 
 typedef std::valarray<double> vala;
 typedef std::map<std::string,double> params;
